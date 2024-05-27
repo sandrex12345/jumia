@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    background-color: purple;
+    overflow-x: hidden;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 20px;
+}
+main{
+
+    display: flex;
+    background-color:  purple;
+    flex-wrap: wrap;
+}
+.header1{
+    background-color: rgb(241, 241, 242);
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+}
+.header2{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+.jumia-logo{
+    height: 55px;
+    padding: 5px;
+    margin: 100px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.search{
+    display: flex;
+    height: 55px;
+    align-items: center;
+}
+.search form {
+    display: flex;
+    border: 2px solid;
+    height:45px;
+    border-color:#ddd;
+    margin-left: 270px;
+    align-items: center;
+    padding: 20px;  
+}
+.search input {
+    width: 500px;
+    padding: 20px;
+    border: 0;
+    height: 100%;
+    border-radius: 2px 0 0 2px;   
+}
+input:focus{
+    outline:none;
+    border: 1px solid white;
+}
+.search button{
+    height: 80%;
+    width: 100px;
+    background-color: orange;
+    color: white;
+    font-size: medium;
+    border-radius: 5px;
+    margin: 8px; 
+    border: none;
+}
+.material-icons{
+    color: black;
+    cursor:pointer;
+    display: flex;
+    justify-content: space-between; 
+}
+.icons{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+
+.logo{
+    width: 15px;
+    margin: 5px;
+}
+.words{
+    color: orange;
+}
+.batch{
+    width: 40px;
+    margin: 500px;
+}
+.search-bar{
+    justify-items: center;
+    border-radius: 5px;
+}
+.names{
+    margin: 20px;
+    display: flex;
+}
+.search b{
+    margin: 2opx;
+}
+.account{
+    padding: 5px;
+}
+.help{
+    padding: 5px;
+}
+.mark{
+    padding: 5px;
+}
+.cart{
+    padding: 5px;
+}
+.content{
+    background-color: white;
+    margin-left: 60px;
+    width: 250px;
+    margin-top: 18px;
+    border-radius: 10px;
+    height: 387px;
+    
+}
+.nav{
+    margin-left: 20px;
+    color: darkslategray;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    flex-direction: column
+    
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+}
+.nav-link span{
+    margin-left: 15px;
+}
+.nav-link:hover{
+    cursor: pointer;
+}
+.thumbnail{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.pic2{
+    background-color: white;
+    height: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 217px;
+    border-radius: 5px;
+}
+.pic3{
+    margin-top: 66px;
+    margin-bottom: 90px;
+    border-radius: 10px;
+}
+.nav1{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.nav2{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.nav3{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.content2{
+    background-color: white;
+    display: flex;
+    margin-top: 15px; 
+    margin-left: 50px;  
+    border-radius: 0px;
+    margin-right: 48px;
+    text-align: center;
+    height: 340px;
+}
+.image1{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-wrap: w;
+}
+.image2{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.image3{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.image4{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+.content3{
+    background-color: white;
+    display: flex;
+    margin-top: 15px; 
+    margin-left: 50px;  
+    border-radius: 0px;
+    margin-right: 48px;
+    text-align: center;
+    height: 340px;
+}
+.content5{
+    background-color: white;
+    display: flex;
+    margin-left: 50px;  
+    border-radius: 0px;
+    margin-right: 48px;
+    text-align: center;
+    height: 340px;
+    margin-top: 15px;
+}
+.content6{
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 48px;
+    display: flex;
+    margin-top: 20px;
+}
+.mage1{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.mage2{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.content7{
+    margin-top:20px;
+    margin-left: 30px;
+}
+.content8{
+    margin-top:20px;
+    margin-left: 30px;
+}
+.content9{
+    margin-top:20px;
+    margin-left: 30px;
+}
+.content10{
+    margin-top:20px;
+    margin-left: 30px;
+}
+.content11{
+    margin-top:20px;
+    margin-left: 30px;
+}
+.content1{
+    margin-top:20px;
+    margin-left: 30px;
+}
+.content14{
+    background-color: white;
+    display: flex;
+    margin-top: 20px; 
+    margin-left: 50px;  
+    border-radius: 0px;
+    margin-right: 48px;
+    text-align: center;
+    height: 340px;
+}
+.content20{
+    background-color: white;
+    display: flex; 
+    margin-left: 50px;  
+    border-radius: 0px;
+    margin-right: 48px;
+    text-align: center;
+    height: 450px
+}
+.content21{
+    background-color: white;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50px;  
+    border-radius: 0px;
+    margin-right: 48px;
+    text-align: center;
+    height: 450px
+}
+.content28{
+    background-color: white;
+    display: flex; 
+    margin-left: 50px;  
+    border-radius: 0px;
+    margin-right: 48px;
+    text-align: center;
+    height: 440px;
+    margin-top: 20px;
+}
+
+
+
